@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.app__form{
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: rgba(32, 31, 31, 0.9);
+  width: 90%;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 50px;
+  color: white !important;
+}
+
+.app__formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app_msgInput{
+  flex: 1;
+  color: white !important;
+}
+
+.app_iconButton{
+  flex: 0;
+}
